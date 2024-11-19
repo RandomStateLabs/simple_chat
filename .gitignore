@@ -22,3 +22,32 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables and secrets
+.env
+*.env
+.env.local
+.env.*.local
+
+# API keys and credentials
+**/credentials.json
+**/secrets.json
+
+# Configuration files that might contain sensitive data
+config.private.json
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
